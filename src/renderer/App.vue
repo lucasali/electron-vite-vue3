@@ -1,12 +1,10 @@
 <template>
-  <div>
-    <Button>Hello from Vue 3</Button>
-  </div>
+  <DefaultLayout />
 </template>
 
 <script setup>
-import Button from './components/Button.vue';
+import DefaultLayout from './layouts/DefaultLayout.vue';
+
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
